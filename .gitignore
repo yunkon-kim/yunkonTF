@@ -19,3 +19,13 @@
 
 # Go workspace file
 go.work
+
+# Terrafrom files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# credentials
+*credential*
